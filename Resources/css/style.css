@@ -1,0 +1,149 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h2 {
+  margin: 0 auto 15px auto;
+}
+
+h5,h4,h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+
+header {
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  align-items: center;
+}
+
+nav {
+  flex-grow: 1;
+  width: 100%;
+  text-align: right;
+  padding-right: 10px;
+}
+nav a {
+  padding-right: 20px;
+  text-decoration: underline;
+  color: seashell;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+/* our mission */
+
+#mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  height: 700px;
+  width: 100%;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  background-image: url(../images/img-mission-background.jpg);
+}
+
+.mission-text {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+}
+.mission-text  h2{
+  margin-bottom: 20px;
+}
+
+/* featured tea */
+
+#featuredtea {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.featuredtea-container {
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.image-frame span {
+  text-align: center;
+  display: block;
+}
+.image-frame {
+  margin: 10px;
+}
+.image-frame img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+/* locations */
+
+#locations {
+  background-image: url(../Images/img-locations-background.jpg);
+  height: 500px;
+  vertical-align: middle;
+  padding-top: 70px;
+}
+.locations-container {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.location-item {
+  background-color: black;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  line-height: 3;
+  margin: 0 20px;
+}
+
+/*footer*/
+
+footer {
+  padding-top: 15px;
+}
+.address {
+  height: 200px;
+}
+.address h5 {
+  padding-top: 15px;
+  line-height: 3;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
